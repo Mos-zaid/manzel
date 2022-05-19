@@ -676,7 +676,7 @@ a {
 
   .col-lg-2-half{
     flex: 0 0 auto;
-    width: 24%;
+    width: 24.79%;
   }
 }
 
@@ -1175,6 +1175,12 @@ img.footer-small-icon{
   padding: 10px 10px;
   border: 1px $yellow solid;
   background-color: $yellow;
+}
+
+.btn--gold{
+  background-color: $gold;
+  border: 1px $gold solid;
+  color: $white;
 }
 
 .btn--white{
