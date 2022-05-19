@@ -1038,7 +1038,21 @@ a {
   border: 1.8px #b1b3b6 solid;
 }
 
+.bt-none{
+  border-top: none;
+}
 
+.br-none{
+  border-right: none;
+}
+
+.bl-none{
+  border-left: none;
+}
+
+.bb-none{
+  border-bottom: none;
+}
 
 .bb-gray{
   border-bottom: 2px $gray solid;
