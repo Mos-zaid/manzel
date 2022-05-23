@@ -10,6 +10,28 @@ img.height-255{
     height: 250px;
 }
 
+.car-1-obj-fit{
+    object-position: 70% 20%;
+}
+.faq-obj-fit{
+    object-position: 58% 0%;
+}
+
+@media (min-width: 992px) {
+    .car-1-obj-fit{
+        object-position: 0 20%;
+    }
+
+   .car-1-obj-fit{
+    object-position: 0 20%;
+   } 
+
+   .faq-obj-fit{
+    object-position: 0% 50%;
+}
+
+}
+
 /* ==================== ABOUT ==================== */
 
 
