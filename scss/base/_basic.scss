@@ -1149,7 +1149,24 @@ a {
   .bw-lg-5{
     border-width: 5px;
   }
+
+  .bt-lg-none{
+    border-top: none;
   }
+  
+  .br-lg-none{
+    border-right: none;
+  }
+  
+  .bl-lg-none{
+    border-left: none;
+  }
+  
+  .bb-lg-none{
+    border-bottom: none;
+  }
+  
+}
 
 
 .height-50{
