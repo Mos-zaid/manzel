@@ -56,13 +56,50 @@ ul.list-style-none li{
 }
 
 // Hide Details marker
-// details>summary{
-//   list-style: none;
-// }
+details.read-more>summary{
+  list-style: none;
+}
 
-// summary::-webkit-details-marker{
-//   display: none;
-// }
+summary.read-more::-webkit-details-marker{
+  display: none;
+}
+
+details.read-more { 
+  position: relative; 
+  width: 100%;
+}
+// details[open] { height: 40px;}
+
+details.read-more span {
+  position: absolute; 
+  top: 0;
+}
+
+summary.read-more {
+  position: absolute; 
+  display: block;
+  bottom: -30px;
+  left: 38%;
+  text-align: center;
+}
+
+@media (min-width: 630px) {
+  summary.read-more {
+    left: 43%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  summary.read-more {
+    left: 33%;
+  }
+  
+}
+
+details.read-more[open] ::-webkit-details-marker{
+    transform: rotate(180deg);
+}
 
 // // Custom Details Marker
 // summary::after{
@@ -1217,7 +1254,10 @@ img.footer-small-icon{
 }
 
 .btn--white{
-  border: 1px $white solid;
+  color: $white;
+}
+
+.btn--white:hover{
   color: $white;
 }
 
