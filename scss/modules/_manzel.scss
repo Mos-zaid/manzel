@@ -10,6 +10,15 @@ img.height-255{
     height: 250px;
 }
 
+.lady-button-position{
+    top:0%;
+}
+
+@media (min-width: 992px) {
+    .lady-button-position{
+        top:20%;
+    }
+}
 .car-1-obj-fit{
     object-position: 70% 20%;
 }

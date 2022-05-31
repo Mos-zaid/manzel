@@ -55,6 +55,15 @@ ul.list-style-none li{
   list-style: none;
 }
 
+// Change the text on the read more button
+details.read-more[open] summary::after {
+  content: attr(data-open);
+}
+
+details.read-more:not([open]) summary::after {
+  content: attr(data-close);
+}
+
 // Hide Details marker
 details.read-more>summary{
   list-style: none;
@@ -64,11 +73,11 @@ summary.read-more::-webkit-details-marker{
   display: none;
 }
 
+// Details tags will open upwards
 details.read-more { 
   position: relative; 
   width: 100%;
 }
-// details[open] { height: 40px;}
 
 details.read-more span {
   position: absolute; 
