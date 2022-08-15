@@ -1,7 +1,7 @@
-# STONEBRIDGE
+# MANZEL
 
 
-![Design preview for Stonebridge](./images/MANZEL-websiteHOME_Carousel 1.jpg)
+![Design preview for Manzel](./images/MANZEL-websiteHOME_Carousel%201.jpg)
 
 
 ## Welcome! 👋
